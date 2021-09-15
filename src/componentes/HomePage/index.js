@@ -1,11 +1,15 @@
 import React from 'react';
-import Card from '../Card';
+import CardOne from '../Card/CardOne';
+import CardTwo from '../Card/CardTwo';
+import CardThree from '../Card/CardThree';
 import './style.css';
 
 function HomePage() {
     return(
         <div className="home-page">
-            <Card />
+            <CardOne />
+            <CardTwo />
+            <CardThree />
         </div>
     );
 }
