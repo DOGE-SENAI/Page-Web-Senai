@@ -2,7 +2,8 @@ header {
     background-color: #2884B2;
     display: block;
     color: white;
-    height: 75px;
+    min-height: 75px;
+    max-height: 100%;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -31,4 +32,17 @@ header .schoolName p:last-child {
 
 header .schoolName p {
     margin: 0 20px;
+}
+
+@media screen and (max-width: 800px) {
+    header{
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    header img{
+        margin: 10px;
+        padding: 10px 0;
+    }
 }
