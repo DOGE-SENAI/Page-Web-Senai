@@ -5,7 +5,7 @@ import './style.css';
 function CardThree() {
     return(
         <div className="card">
-            <img src={eletronica} alt="Curso de Excel Avançado" />
+            <div className="img-card3"></div>
             <h3>Excel Avançado</h3>
             <p>Duração: 40 Horas</p>
             <p>Valor: </p>

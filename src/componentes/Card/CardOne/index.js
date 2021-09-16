@@ -4,11 +4,11 @@ import './style.css';
 function CardOne() {
     return(
         <div className="card">
-            <div className="img-card"></div>
+            <div className="img-card1"></div>
             
             <h3>Auto Cad 2D</h3>
-            <p>Duração: 48 Horas</p>
-            <p>Valor: </p>
+            <p><b>Duração:</b> 48 Horas</p>
+            <p><b>Valor:</b> </p>
         </div>
     )
 }
