@@ -4,12 +4,9 @@
     height: 400px;
     margin: 10px;
     /*padding: 10px;*/
-;}
+}
+
 .img-card3{
     height: 185px;
-    background: url('../excel.png');
-    margin: none;
-}
-.p{
-    text-align: left;
+    background: no-repeat center/100% url('../excel.png');
 }

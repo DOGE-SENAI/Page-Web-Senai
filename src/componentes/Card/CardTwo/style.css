@@ -7,9 +7,6 @@
 }
 .img-card2{
     height: 185px;
-    background: url('../eletronica.png');
+    background: no-repeat center/100% url('../eletronica.png');
 }
 
-.p{
-    text-align: left;
-}
