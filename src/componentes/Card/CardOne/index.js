@@ -12,7 +12,7 @@ function CardOne() {
                 <p><b>Área:</b> Tecnologia da Informação</p>
                 <p><b>Valor:</b> <i>Consultar Preço na Unidade</i></p>
             </div>
-            <div className="link"><a href="https://suicobrasileira.sp.senai.br/curso/54575/115/auto-cad-2d" target="_blank" rel="noreferrer">Ver detalhes...</a></div>
+            <p className="link"><a href="https://suicobrasileira.sp.senai.br/curso/54575/115/auto-cad-2d" target="_blank" rel="noreferrer">Ver detalhes...</a></p>
 
         </div>
     )

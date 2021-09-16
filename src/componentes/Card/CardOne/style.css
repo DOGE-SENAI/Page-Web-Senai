@@ -14,7 +14,11 @@ h3{
     text-transform: uppercase;
 }
 
-p{margin: 4px 0;}
+p{
+    margin: 4px 0;
+    font-weight: 500;
+    font-size: 18px;
+}
 
 .img-card1{
     max-width: 100%;
