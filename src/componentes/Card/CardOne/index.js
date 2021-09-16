@@ -5,7 +5,9 @@ import './style.css';
 function CardOne() {
     return(
         <div className="card">
-            <img src={autocad} alt="Curso de Auto Cad 2d" />
+            <div style={{ backgroundImage: `src(${autocad})` }}>
+                HelloWorld
+            </div>
             <h3>Auto Cad 2D</h3>
             <p>Duração: 48 Horas</p>
             <p>Valor: </p>
