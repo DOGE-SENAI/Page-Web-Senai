@@ -7,6 +7,12 @@
 }
 .img-card2{
     height: 185px;
-    background: no-repeat center/100% url('../eletronica.png');
+    background: no-repeat center url('../eletronica.png');
+    background-size: 100% 100%;
 }
 
+
+.text-card{
+    padding: 21px;
+    text-align: left;
+}
